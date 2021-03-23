@@ -6,25 +6,43 @@ body{
 
 main{
     background: white;
-    margin-left: 300px;
+    margin-left: 250px;
     margin-right: 800px;
-    padding-bottom: 720px;
+    margin-top: 50px;
+    padding-bottom: 700px;
 
+
+}
+
+h1{color: #5ac4c2;
+    font-size: 25px;
+    padding-bottom: 80px;
+    padding-top:50px;
+    margin-left: 30px;
+    text-align: left;
+
+}
+
+.navbar{
+    background: white;
 
 }
 
 .navbar-brand{
-    color: black;
+    color: white;
+    background: #5ac4c2;
+    margin-left: 5px;
+
 }
 
-.header h1{
-
-    color: #5ac4c2;
-    font-size: 20px;
-    padding-bottom: 80px;
-    margin-left: 30px;
-    text-align: left;
-
-
-    
+.image{
+    float: left;
+    max-width: 10%
 }
+
+.text{
+    float:right;
+}
+
+
+
