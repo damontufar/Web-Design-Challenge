@@ -1,17 +1,8 @@
 
+/* Styling for HTML elements */
 
 body{
     background: lightgray;
-}
-
-main{
-    background: white;
-    margin-left: 250px;
-    margin-right: 800px;
-    margin-top: 50px;
-    padding-bottom: 700px;
-
-
 }
 
 h1{color: #5ac4c2;
@@ -22,6 +13,8 @@ h1{color: #5ac4c2;
     text-align: left;
 
 }
+
+/* Selecting elements by class */
 
 .navbar{
     background: white;
@@ -35,14 +28,34 @@ h1{color: #5ac4c2;
 
 }
 
-.image{
-    float: left;
-    max-width: 10%
+.container{
+    background: white;
+    margin-left: 170px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
 }
 
-.text{
-    float:right;
+/* Selecting elements by ID */
+
+#summary,
+#summary_image {
+    float:left;
+}
+#figure{
+    position: relative;
 }
 
+#summary_image{
+    width:350px;
+    height:350px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
 
+#summary{
+    color: slategrey;
+    width: 100%;
+    font-size: 15px;
+}
 
