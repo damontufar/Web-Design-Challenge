@@ -1,0 +1,30 @@
+
+
+body{
+    background: lightgray;
+}
+
+main{
+    background: white;
+    margin-left: 300px;
+    margin-right: 800px;
+    padding-bottom: 720px;
+
+
+}
+
+.navbar-brand{
+    color: black;
+}
+
+.header h1{
+
+    color: #5ac4c2;
+    font-size: 20px;
+    padding-bottom: 80px;
+    margin-left: 30px;
+    text-align: left;
+
+
+    
+}
