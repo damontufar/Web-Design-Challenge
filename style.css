@@ -42,11 +42,15 @@ body{
     
 }
 
+
 /* Selecting elements by ID */
 
 #summary,
 #summary_image,
-#vis_image{
+#vis_image,
+#comparison,
+#comp_image
+{
     float:left;
 }
 
@@ -76,8 +80,41 @@ body{
 #vis_image{
     width:200px;
     height: 200px;
-    margin-left:50px;
-    margin-right: 50px;
+    margin-left:60px;
+    margin-right: 20px;
     margin-bottom: 10px;
+}
+
+#comparison{
+    background: white;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
+#comp_header{
+    color: #5ac4c2;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+
+}
+#comp_text{
+    margin-left:100px;
+    margin-bottom: 20px;
+}
+#comp_image{
+    margin-top:10px;
+    width: 100%;
+    height: 40%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#fig_titles{
+    color: #5ac4c2;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 200px;
 }
 
