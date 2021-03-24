@@ -30,9 +30,10 @@ body{
 .col-md-7{
     background: white;
     margin-top:50px;
-    margin-right: 10px;
-    padding-right: 5px;
-    padding-left: 5px;
+    margin-right: 20px;
+    margin-left: 100px;
+    padding-right: 50px;
+    padding-left: 20px;
 }
 
 .col-md-4 {
@@ -48,28 +49,35 @@ body{
 #vis_image{
     float:left;
 }
+
 #figure{
     position: relative;
 }
 
 #summary_image{
-    width:350px;
-    height:350px;
+    width:400px;
+    height:400px;
     margin-left: 30px;
     margin-right:15px;
+    margin-bottom: 50px;
 }
 
 #summary{
     color: slategrey;
-    width: 100%;
     font-size: 15px;
+    width: 100%;
+    
+}
+
+#text{
+    margin-top: 80px;
 }
 
 #vis_image{
-    width:150px;
-    height: 150px;
-    margin-top: 0px;
-    margin-left:22px;
-    margin-bottom: 20px;;
+    width:200px;
+    height: 200px;
+    margin-left:50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
 }
 
