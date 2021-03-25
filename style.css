@@ -42,6 +42,12 @@ body{
     
 }
 
+.container{
+    background: white;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
 
 /* Selecting elements by ID */
 
@@ -85,13 +91,7 @@ body{
     margin-bottom: 10px;
 }
 
-#comparison{
-    background: white;
-    margin-top: 40px;
-    padding-bottom: 30px;
-}
-
-#comp_header{
+#ext_header{
     color: #5ac4c2;
     font-size: 30px;
     margin-top: 30px;
