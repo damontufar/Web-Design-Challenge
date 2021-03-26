@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <title> Weather Data</title>
+
+    <!-- Bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Bootstrap Navbar-->
+    <nav class="navbar">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#plots-collapse" aria-expanded="true">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                <a class="navbar-brand" href="index.html">Latitude</a>
+        </div>
+        <div class="collapse navbar-collapse" id="plots-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                    aria-expanded="false">Plots <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="plot_temp.html">Max Temperature</a></li>
+                        <li><a href="plot_hum.html">Humidity</a></li>
+                        <li><a href="plot_cloud.html">Cloudiness</a></li>
+                        <li><a href="plot_wind.html">Wind Speed</a></li>
+                    </ul>
+                </li>
+                <li><a href="comparison.html">Comparison </a></li>
+                <li><a href="data.html">Data </a></li>
+            </ul> 
+        </div>
+    </nav>
+
+<!-- Content of Landing Page: Summary & Visualizations-->
+<div class="container-fluid">
+    <div  class= "row">
+        <section class ="indiv_vis">
+            <div class="col-md-6">
+            <!--Summary-->
+                    <header class="header"> 
+                        <h1>Cloudiness</h1>
+                    </header>
+                    <section id="figure">
+                        <a href="Resources/assets/images/Fig3.png" target="blank" rel="noopener noreferrer">
+                            <img id="indiv_image"src="Resources/assets/images/Fig3.png">
+                        </a>
+                    </section>
+                    <section class="text">
+                        <p>
+                            Cities' Latitude vs Cloudiness scatterplot shows that it does not matter the latitude of a city, 
+                            the cloudiness can be expected to behavior at any level.</br>
+                        </br>
+                    </section>
+            </div>
+        </section>
+        
+        <!--Visualizations - Includes Images of Analysis-->
+        <section class = "visualizations_page">
+            <div class="col-md-6">
+                <header class="header">
+                <h2>Visualizations</h2>
+                </header>
+                <section id="figure">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="Resources/assets/images/Fig1.png" target="blank" rel="noopener noreferrer">
+                                <img id="in_vis_image"src="Resources/assets/images/Fig1.png">
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="Resources/assets/images/Fig2.png" target="blank" rel="noopener noreferrer">
+                                <img id="in_vis_image"src="Resources/assets/images/Fig2.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                        <a href="Resources/assets/images/Fig3.png" target="blank" rel="noopener noreferrer">
+                            <img id="in_vis_image"src="Resources/assets/images/Fig3.png">
+                        </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="Resources/assets/images/Fig4.png" target="blank" rel="noopener noreferrer">
+                                <img id="in_vis_image"src="Resources/assets/images/Fig4.png">
+                            </a>
+                    </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
