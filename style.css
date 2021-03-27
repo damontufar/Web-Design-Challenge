@@ -68,13 +68,13 @@ body{
     padding-left: 50px;
 }
 
-.pos-f-t{
-    visibility: hidden;
-}
-.navbar-plugin{
+.media-navbar{
     visibility: hidden;
 }
 
+.menu-content{
+    font-size: 20px;
+}
 
 /* Selecting elements by ID */
 
@@ -184,7 +184,6 @@ body{
     margin-right: 100px;
 }
 
-
 @media (max-width: 992px) {
     .navbar{
         background: #5ac4c2;
@@ -195,10 +194,15 @@ body{
         font-weight: bold;
     }
 
-    
-    .navbar-plugin{
-        visibility: visible;
+    .navbar-collapse{
+        visibility: hidden;
     }
+
+    .media-navbar{
+        visibility: visible;
+        margin-right: 30px;
+    }
+
     .header{
         padding-bottom: 30px;
     }

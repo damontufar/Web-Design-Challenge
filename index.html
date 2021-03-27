@@ -26,7 +26,7 @@
             </button>
                 <a class="navbar-brand" href="#">Latitude</a>
         </div>
-        <div class="collapse navbar-collapse" id="plots-collapse">
+        <div class="navbar-collapse" id="plots-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
@@ -39,24 +39,35 @@
                     </ul>
                 </li>
                 <li><a href="comparison.html">Comparison </a></li>
-                <li><a href="data.html">Data </a></li>
-            </ul> 
+                <li><a href="data.html">Data </a></li> 
+            </ul>
         </div>
+
         <div class="pos-f-t">
-            <div class="collapse" id="navbarToggleExternalContent">
-              <div class="bg-dark p-4">
-                <li><a href="comparison.html">Comparison </a></li>
-                <li><a href="data.html">Data </a></li>
-              </div>
-            </div>
-            <nav class="navbar-plugin">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" 
-              data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" 
-              aria-expanded="false" aria-label="Toggle navigation">
+        <ul class="nav navbar-nav navbar-right">
+                <div class="menu-content">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                            aria-expanded="false">Plots <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="plot_temp.html">Max Temperature</a></li>
+                                <li><a href="plot_hum.html">Humidity</a></li>
+                                <li><a href="plot_cloud.html">Cloudiness</a></li>
+                                <li><a href="plot_wind.html">Wind Speed</a></li>
+                            </ul>
+                        <li><a href="comparison.html">Comparison </a></li>
+                        <li><a href="data.html">Data </a></li> 
+                        <div class="dropdown-divider"></div>
+                    </div>
+        <nav class="media-navbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" 
+            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-            </nav>
-          </div>
+            </button>
+        </nav>
+        </ul>  
+        </div>
     </nav>
     <!-- Content of Landing Page: Summary & Visualizations-->
     <div class="container_fluid">
