@@ -205,9 +205,9 @@ body{
     }
 
     .text{
-        width: 400px;
+        width: 600px;
         text-align: center;
-        margin-left: 30px;
+        margin-left: 100px;
     
     }
 
@@ -243,8 +243,9 @@ body{
     }
 
     #indiv_image{
-        width:200px;
-        height:200px;
+        margin-left: 150px;
+        width:400px;
+        height:300px;
     }
 
     
