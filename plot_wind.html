@@ -26,7 +26,7 @@
             </button>
                 <a class="navbar-brand" href="index.html">Latitude</a>
         </div>
-        <div class="collapse navbar-collapse" id="plots-collapse">
+        <div class="navbar-collapse" id="plots-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
@@ -39,29 +39,56 @@
                     </ul>
                 </li>
                 <li><a href="comparison.html">Comparison </a></li>
-                <li><a href="data.html">Data </a></li>
-            </ul> 
+                <li><a href="data.html">Data </a></li> 
+            </ul>
+        </div>
+
+        <div class="pos-f-t">
+        <ul class="nav navbar-nav navbar-right">
+                <div class="menu-content">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                            aria-expanded="false">Plots <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="plot_temp.html">Max Temperature</a></li>
+                                <li><a href="plot_hum.html">Humidity</a></li>
+                                <li><a href="plot_cloud.html">Cloudiness</a></li>
+                                <li><a href="plot_wind.html">Wind Speed</a></li>
+                            </ul>
+                        <li><a href="comparison.html">Comparison </a></li>
+                        <li><a href="data.html">Data </a></li> 
+                        <div class="dropdown-divider"></div>
+                    </div>
+        <nav class="media-navbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" 
+            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        </ul>  
         </div>
     </nav>
 
-<!-- Content of Landing Page: Summary & Visualizations-->
+<!-- Content of Indiv Visualization & All Visualizations at the side-->
 <div class="container-fluid">
     <div  class= "row">
         <section class ="indiv_vis">
-            <div class="col-md-6">
+            <div class="col-md-8">
             <!--Summary-->
                     <header class="header"> 
                         <h1>Wind Speed</h1>
                     </header>
                     <section id="figure">
-                        <a href="Resources/assets/images/Fig4.png" target="blank" rel="noopener noreferrer">
+                        <a href="plot_wind.html" target="blank" rel="noopener noreferrer">
                             <img id="indiv_image"src="Resources/assets/images/Fig4.png">
                         </a>
                     </section>
                     <section class="text">
                         <p>
-                            Even when relationship between Latitude and Wind Speed does not seem to be highly strong, it is a slightly behavior in cities with a higher and lower latitude, 
-                            where the wind speed is higher too, we can see this specially in cities with a latitude above and below 40 degrees.</br>
+                            Even when relationship between Latitude and Wind Speed does not seem to be highly strong, 
+                            it is a slightly behavior in cities with a higher and lower latitude, where the wind speed is higher too, 
+                            we can see this specially in cities with a latitude above and below 40 degrees. </br>
                         </br>
                     </section>
             </div>
@@ -69,35 +96,23 @@
         
         <!--Visualizations - Includes Images of Analysis-->
         <section class = "visualizations_page">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <header class="header">
                 <h2>Visualizations</h2>
                 </header>
                 <section id="figure">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <a href="Resources/assets/images/Fig1.png" target="blank" rel="noopener noreferrer">
-                                <img id="in_vis_image"src="Resources/assets/images/Fig1.png">
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="Resources/assets/images/Fig2.png" target="blank" rel="noopener noreferrer">
-                                <img id="in_vis_image"src="Resources/assets/images/Fig2.png">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                        <a href="Resources/assets/images/Fig3.png" target="blank" rel="noopener noreferrer">
-                            <img id="in_vis_image"src="Resources/assets/images/Fig3.png">
-                        </a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="Resources/assets/images/Fig4.png" target="blank" rel="noopener noreferrer">
-                                <img id="in_vis_image"src="Resources/assets/images/Fig4.png">
-                            </a>
-                    </div>
-                    </div>
+                    <a href="plot_temp.html" target="blank" rel="noopener noreferrer">
+                        <img id="in_vis_image"src="Resources/assets/images/Fig1.png">
+                    </a>
+                    <a href="plot_hum.html" target="blank" rel="noopener noreferrer">
+                        <img id="in_vis_image"src="Resources/assets/images/Fig2.png">
+                    </a>
+                    <a href="plot_cloud.html" target="blank" rel="noopener noreferrer">
+                        <img id="in_vis_image"src="Resources/assets/images/Fig3.png">
+                    </a>
+                    <a href="plot_wind.html" target="blank" rel="noopener noreferrer">
+                        <img id="in_vis_image"src="Resources/assets/images/Fig4.png">
+                    </a>
                 </section>
             </div>
         </section>

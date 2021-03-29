@@ -181,7 +181,7 @@ body{
     position: relative;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1270px) {
     .navbar{
         background: #5ac4c2;
     }
@@ -204,12 +204,32 @@ body{
         padding-bottom: 30px;
     }
 
+    .text{
+        width: 400px;
+        text-align: center;
+        margin-left: 30px;
+    
+    }
+
+    .indiv_vis {
+        margin-right: 30px;
+        margin-left: 100px;
+        width: 80%;
+
+    }
+
+    .visualizations_page{
+        width:80%;
+        margin-left: 100px;
+    }
+
     #summary{
         margin-left: 50px;
+        width: 90%;
     }
     #summary_image{
         width:200px;
-    height:200px;
+        height:200px;
     }
 
     #land-vis{
@@ -223,8 +243,11 @@ body{
     }
 
     #indiv_image{
-    width:200px;
-    height:200px;
+        width:200px;
+        height:200px;
     }
+
+    
+
     
 }
